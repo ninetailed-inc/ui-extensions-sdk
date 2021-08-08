@@ -15,3 +15,7 @@ cypress.env.json
 .env
 .env.local
 .envrc
+
+# editors
+.vscode/
+.idea/
