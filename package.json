@@ -11,12 +11,6 @@
   "homepage": "https://www.contentful.com/developers/docs/extensibility/app-framework/sdk/",
   "main": "dist/cf-extension-api.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist/cf-extension-api.js",
-    "dist/cf-extension-api.js.map",
-    "dist/cf-extension.css",
-    "dist/**/*.d.ts"
-  ],
   "scripts": {
     "test": "ts-mocha -p tsconfig.test.json 'test/unit/*.[jt]s' --reporter mocha-multi-reporters --reporter-options configFile=mocha.unit-reporters.json",
     "lint": "eslint '{lib,test}/**/*.{t,j}s'",
